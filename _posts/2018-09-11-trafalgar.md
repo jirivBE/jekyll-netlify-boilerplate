@@ -7,4 +7,6 @@ categories: test
 ---
 hi
 
-![null](/assets/img/uploads/trafalgar.jpg)
+![tra](/assets/img/uploads/trafalgar.jpg)
+
+bye
