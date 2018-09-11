@@ -18,7 +18,7 @@ layout: default
 
 {{ content }}
                     
-<a href={{ page.title | url_encode  | replace: “+”, “-“ }} > test pagetitle encoded link, spaced -</a> 
+<a href={{ page.title | url_encode  | replace: '+', '-' }} > create url slug based of title</a> 
 
 <nav aria-label="Adjacent Posts">
   <ul>
