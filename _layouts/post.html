@@ -17,8 +17,8 @@ layout: default
 {% include page-intro.html %}
 
 {{ content }}
-              <a href={{ page.title | url_encode }} > test pagetitle encoded link</a>      
-
+                    
+<a href={{ page.title | url_encode  | replace: “+”, “-“ }} > test pagetitle encoded link</a> 
 
 <nav aria-label="Adjacent Posts">
   <ul>
